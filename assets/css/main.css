@@ -66,6 +66,13 @@ span.about-detail {
   font-size: 12px;
 }
 
+.skills-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+}
+
 .font-weight-600 {
   font-weight: 600;
 }
@@ -121,9 +128,6 @@ img.brightness-80 {
   .flex-sm-column {
     display: flex;
     flex-direction: column;
-  }
-  .order-first {
-    order: 1;
   }
 
   .padding-sm-0 {
