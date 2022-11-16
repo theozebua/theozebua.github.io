@@ -149,7 +149,7 @@ img.brightness-80 {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 600px) and (max-width: 992px) {
   .custom-floating-btn {
     visibility: unset;
   }
