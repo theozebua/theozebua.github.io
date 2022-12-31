@@ -29,10 +29,6 @@ img.img-profile {
   border-radius: 50%;
 }
 
-span.about-detail {
-  display: block;
-}
-
 .flex-space-between {
   display: flex;
   justify-content: space-between;
