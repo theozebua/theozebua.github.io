@@ -104,7 +104,7 @@ span.about-detail {
 }
 
 .custom-floating-btn {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .custom-backtotop-btn {
@@ -150,11 +150,13 @@ img.brightness-80 {
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
-  .custom-floating-btn {
-    visibility: unset;
-  }
-
   .portfolio-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .custom-floating-btn {
+    visibility: hidden;
   }
 }
